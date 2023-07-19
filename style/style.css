@@ -1,0 +1,541 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+      margin: 0;
+   
+}
+
+/* header and nav section */
+.header-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header-logo img{
+    width: 86px;
+    height:40px ;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 240px;
+ }
+ header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+   
+ }
+  header nav a{
+    list-style: none;
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    
+ }
+
+ .follow-us-nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 17px 24px;
+ }
+.g{
+    color: #FF42A5;
+}
+ .logo-title{
+    color: #0B0223;;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+
+ }
+ /*=========== header end======= */
+
+ /* ===========banner section======= */
+ .banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./Group\ 14.png);
+    background-repeat: no-repeat;
+ }
+ .banner-img{
+  /* display: none; */
+ }
+
+ .play-like-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 0;
+ }
+ h1{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    margin-top: 0;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-align: left;
+ }
+ .play-like p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 17px;
+
+ }
+
+ .signin-btn{
+   color: #FFF;
+   font-size: 20px;
+   font-weight: 600;
+   padding: 21px 40px;
+   background-color: #FF42A5;
+   border-radius: 48px;
+   border: none;
+   margin-right: 24px;
+ }
+
+ .go-rogue-btn{
+   color: #FFF;
+   font-size: 20px;
+   font-weight: 600;
+   padding: 21px 40px;
+   border-radius: 48px;
+   background: #4EC5F7;
+   border: none;
+ }
+  /* ===========banner section end======= */
+
+
+  .gamer-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+   /* height: 600px; */
+   padding: 0 240px;
+   gap: 52px;
+   margin-bottom: 120px;}
+
+
+  .gamer-contant{
+   text-align: right;
+   
+  }
+
+  .gamer-title{
+   text-align: right;
+   font-size: 48px;
+   font-weight: 700;
+   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-bottom: 24px;
+  }
+
+  .gamer-desctiption{
+   color: #534C64; 
+   font-size: 18px; 
+   font-weight: 400;
+   line-height: 30px;
+  }
+
+  .know-me-btn{
+   color: #FFF;
+   font-size: 20px;
+   font-weight: 600;
+   padding: 21px 40px;
+   background-color: #FF42A5;
+   border-radius: 48px;
+   border: none;
+   margin-bottom: 24px;
+  }
+
+  .our-purpose{
+   color: #534C64;
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 45px; /* 187.5% */
+  } 
+
+  .unleash-the-gamer{
+   color: #534C64;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 45px;
+
+  }
+
+  /* ---------------we are gamer section end------------ */
+
+  /* ----------online games section start */
+
+  .online-games-container{
+   padding: 0 240px;
+   margin-bottom: 120px;
+   
+  }
+
+  .online-game-box-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 24px;
+   
+}
+
+.online-games-contant{
+   text-align: center;
+}
+.online-games-title{
+   color: #0B0223;
+   font-size: 48px;
+   font-weight: 700;
+   margin-bottom: 16px;
+}
+
+.online-games-description{
+   margin-top: 0;
+   margin-bottom: 48px;
+   color: #534C64;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 30px; /* 166.667% */
+}
+.funny-videos{
+   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 48px;
+   font-weight: 700;
+}
+
+.box p{
+   color: #534C64;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 30px; /* 150% */
+}
+
+  /* online games section end */
+
+
+
+  /* ----------play instantly section start */
+.play-instantly-container{
+   padding: 0 240px;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   margin-bottom: 120px;
+   gap: 265px;
+   margin-right: 0;
+   margin-bottom: 120px;
+   
+   
+}
+
+.rectangle-sixtysix{
+   position: absolute;
+   left: 1000px;
+   bottom: -2100px;
+}
+/* .over-photo{
+   position: relative;
+   left: -180px;
+   top: -280px; 
+  
+
+} */
+.play-instantly-title{
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+margin-bottom: 24px; 
+}
+
+.play-instantly-contant{
+   text-align: right;
+}
+.Play-Instantly{
+   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+  /* ----------play instantly section end */
+
+  /* ------career */
+  .career{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0 0px 0 240px;
+   background-color: #FF42A5;
+   height: 821px;
+   
+  }
+
+  .career-title{
+   color: #FFF;
+   font-size: 48px;
+   font-weight: 700;
+
+  }
+
+  .career-description{
+   color: #FFF;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+   max-width: 680px; 
+  }
+
+  .skill-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 97px;
+   max-width: 680px;
+   color: #FFF;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 40px; 
+   margin-bottom: 40px;
+  }
+
+  .place-name{
+   text-align: right;
+  }
+
+  .see-btn{
+   padding: 21px 40px;
+   gap: 10px;
+   border-radius: 48px;
+   background: #FFF;
+   border: none;
+   font-family: Work Sans;
+   font-size: 20px;
+   font-weight: 600;
+   color: #FF42A5;
+  }
+
+  /* icon section--------------- */
+  .icon-container{
+   background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+   padding: 120px 249px;
+   
+   
+  }
+
+.first-icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   
+   
+}
+
+.second-icon{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   
+   
+   
+}
+ .first-icon  .icon{
+   display: flex;
+   border-radius: 50px;
+   background: #FFF;
+   /* border: 1px solid pink; */
+   margin-bottom: 30px;
+   padding: 10px 20px 10px 10px;
+   gap: 16px;
+ }
+
+ .second-icon .icon{
+   display: flex;
+   border-radius: 50px;
+   background: #FFF;
+   gap: 16px;
+   
+   /* border: 1px solid pink; */
+   padding: 10px 20px 10px 10px;
+ }
+
+ .second-icon .icon:hover{
+   color: #FF42A5;
+   border: 1px solid #FF42A5;
+   cursor: pointer;
+ }
+
+ .first-icon  .icon:hover{
+   color: #FF42A5;
+   border: 1px solid #FF42A5;
+   cursor: pointer;
+ }
+
+ /* footer---------------- */
+
+ footer{
+   background-color:  #0B0223;;
+ }
+
+ .footer-logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+ }
+
+ .footer-logo-title{
+   color: #FFF;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }
+ .fg{
+   color: #F948B2;
+ }
+
+ .footer-container{
+   padding: 120px 0 0 0;
+ }
+
+ .footer-nav{
+   margin-bottom: 66px;
+ }
+
+ nav ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 60px;
+ }
+ .footer-nav-contant a{
+   list-style: none;
+   text-decoration: none;
+   color: #FFF;
+   font-size: 18px;
+   font-weight: 600;
+   
+ }
+ .footer-company-icon{
+   text-align: center;
+ 
+ }
+
+ .footer-company-icon img{
+   height: 40px;
+   width: 40px;
+   margin-right: 40px;
+   
+ }
+
+ .terms-and-conditions{
+   display: flex;
+   justify-content: center;
+   gap: 60px;
+   text-align: center;
+   color: rgba(255, 255, 255, 0.60);
+   font-size: 16px;
+   font-weight: 500;
+   margin-top: 70px;
+ }
+
+ .copyright{
+   text-align: center;
+   color: rgba(255, 255, 255, 0.60);
+   font-size: 16px;
+   font-weight: 500;
+   padding-bottom: 130px;
+ }
+
+
+.hide{
+  display: none;
+}
+
+
+ @media screen and (max-width: 573px) {
+  .body{
+    margin: 0px 20px;
+  }
+  
+  .header-container{
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+  }
+  header nav ul{
+    flex-direction: column;
+    padding: 0;
+  }
+  .banner-img > img{
+  width: 100%;
+}
+.banner-container{
+  flex-direction: column-reverse;
+
+}
+.gamer-container{
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 0;
+  background: none;
+  gap: 0px;
+}
+.gamer-container > img{
+  width: 100%;
+}
+.gamer-contant{
+text-align: center;
+}
+.gamer-title{
+  text-align: center;
+}
+.gameBannerImg > img{
+  /* margin-top: 100px; */
+  height: 200px;
+}
+
+ }
+
+ 
+
+
+ 
+
+
+
+  
+
+
+  
+   
+   
+   
+
+  
